@@ -12,7 +12,9 @@
 <body>
 
     <a href="/">Home</a>
+    <a href="/blog">blog</a>
     <a href="/about">About</a>
+    <a href="/contact">contact</a>
     <h1>Halaman About MPJ</h1>
     <h3>Owner: {{ $nama }}</h3>
     <img src="img/mpj.jpg" alt="MPJ Crew" width="700">
