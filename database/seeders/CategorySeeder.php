@@ -16,17 +16,20 @@ class CategorySeeder extends Seeder
         // Category::factory(3)->create();
          Category::create([
             'name' => 'Makanan',
-            'slug' => 'makanan'
+            'slug' => 'makanan',
+            'color' => 'blue'
          ]);
          
          Category::create([
             'name' => 'Minuman',
-            'slug' => 'minuman'
+            'slug' => 'minuman',
+            'color' => 'yellow'
          ]);
          
          Category::create([
             'name' => 'Dessert',
-            'slug' => 'dessert'
+            'slug' => 'dessert',
+            'color' => 'green'
          ]);
     }
 }
